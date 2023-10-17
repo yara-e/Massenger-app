@@ -1,0 +1,57 @@
+.chat {
+    height: 100%;
+    flex-grow: 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: #1c3048;
+    /* #dbdbdb; */
+    display: flex;
+    flex-direction: row;
+    color: #dbdbdb;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+
+}
+
+.nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.send {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 73%;
+    height: 60px;
+    flex: 1;
+}
+
+.send input {
+    padding-top: 20px;
+
+    width: 95%;
+    border: none;
+    outline: none;
+}
+
+.sbtn {
+    height: 60px;
+    border: none;
+    float: right;
+    font-size: large;
+    color: #1c3048;
+
+}
+
+.msgs {
+    display: flex;
+    flex: 10;
+}
